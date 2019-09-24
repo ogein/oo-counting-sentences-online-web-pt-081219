@@ -28,7 +28,7 @@ class String
 
   def count_sentences
     count = 0 
-    String.each 
+    self.each 
     if self.end_with?(".")
       return true 
     else
