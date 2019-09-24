@@ -15,4 +15,4 @@ class String
   end
 
   def count_sentences
-    self
+    self.split.()
